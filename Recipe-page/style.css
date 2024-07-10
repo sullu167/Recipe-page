@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    font-size: 11px;
+    /* text-align: center; */
+}
+
+.main-container{
+    width: 700px;
+    height: fit-content;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    padding: 4%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    color: black;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.box{
+    width: 95%;
+    border: 1px solid transparent;
+    background-color: rgba(253, 221, 253, 0.251);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.box p{
+    margin-left: 20px;
+    line-height: 50%;
+}
+
+
+ul li{
+    text-indent: 0;
+}
+
+hr{
+    width: 100%;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+    font-style: normal;
+    color: brown;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 50%; */
+    justify-content: space-between;
+}
+
+.bold{
+    color: brown;
+    font-weight: bolder;
+}
+
+.right-2{
+    margin-left: 53%;
+    color: brown;
+    font-weight: bolder;
+    
+ }
+
+ .right-3{
+    margin-left: 51%;
+    color: brown;
+    font-weight: bolder;
+ }
+
+ .right-4{
+    margin-left: 55%;
+    color: brown;
+    font-weight: bolder;
+ }
+
+.Nutrition{
+    line-height: normal;
+}
+
+@media only screen and (max-width: 400px){
+   body{
+    background-color: white;
+    display: block;
+   }
+
+   .main-container{
+    flex-direction: column;
+    background-color: white;
+    margin:0;
+    padding: 5%;
+
+    height: 100%;
+    width: 100%;
+   }
+
+   .container{
+    background-color: white;
+    color: black;
+    padding: 5%;
+    margin: 5px auto;
+    padding-right: 10%;
+   }
+}
+
+@media only screen and (max-width: 750px){
+    body{
+     background-color: white;
+     display: block;
+    }
+ 
+    .main-container{
+     flex-direction: column;
+     background-color: white;
+     margin:0;
+     padding: 5%;
+ 
+     height: 100%;
+     width: 100%;
+    }
+ 
+    .container{
+     background-color: white;
+     color: black;
+     padding: 5%;
+     margin: 5px auto;
+     padding-right: 10%;
+    }
+ }
